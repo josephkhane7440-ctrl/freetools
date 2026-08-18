@@ -4,6 +4,26 @@
 
     <url>
         <loc>https://josephkhane7440-ctrl.github.io/freetools/</loc>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://josephkhane7440-ctrl.github.io/freetools/privacy.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://josephkhane7440-ctrl.github.io/freetools/terms.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://josephkhane7440-ctrl.github.io/freetools/contact.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
     </url>
 
 </urlset>
