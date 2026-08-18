@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://josephkhane7440-ctrl.github.io/freetools/sitemap.xml
