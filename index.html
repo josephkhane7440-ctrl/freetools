@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
     <meta charset="UTF-8">
@@ -9,16 +10,18 @@
         content="width=device-width, initial-scale=1.0"
     >
 
-    <title>ToolForge - Free Online Image Compressor & Tools</title>
+    <title>
+        ToolForge - Free Image Compressor & Online Tools
+    </title>
 
     <meta
         name="description"
-        content="ToolForge offers free online tools including image compression, image resizing and useful digital utilities. Fast, simple and privacy-friendly."
+        content="ToolForge provides free online tools including image compression. Compress JPG, PNG and WebP images quickly, privately and easily."
     >
 
     <meta
         name="keywords"
-        content="free online tools, image compressor, compress images, image compression, JPG compressor, PNG compressor, WebP compressor, online tools"
+        content="image compressor, free image compressor, compress image, compress JPG, compress PNG, compress WebP, online image compressor, reduce image size, free online tools, ToolForge"
     >
 
     <meta
@@ -31,14 +34,21 @@
         content="#2563eb"
     >
 
+    <link
+        rel="canonical"
+        href="https://josephkhane7440-ctrl.github.io/freetools/"
+    >
+
+    <!-- Open Graph -->
+
     <meta
         property="og:title"
-        content="ToolForge - Free Online Tools"
+        content="ToolForge - Free Image Compressor & Online Tools"
     >
 
     <meta
         property="og:description"
-        content="Simple tools. Smarter work. Compress images and use useful online tools for free."
+        content="Compress JPG, PNG and WebP images online for free with ToolForge."
     >
 
     <meta
@@ -46,10 +56,11 @@
         content="website"
     >
 
-    <link
-        rel="canonical"
-        href="https://josephkhane7440-ctrl.github.io/freetools/"
+    <meta
+        property="og:url"
+        content="https://josephkhane7440-ctrl.github.io/freetools/"
     >
+
 
     <style>
 
@@ -92,9 +103,7 @@
         }
 
 
-        /* =========================
-           HEADER
-        ========================== */
+        /* HEADER */
 
         header {
             position: sticky;
@@ -112,15 +121,12 @@
             min-height: 72px;
 
             display: flex;
-
             align-items: center;
-
             justify-content: space-between;
         }
 
         .logo {
             display: flex;
-
             align-items: center;
 
             gap: 10px;
@@ -128,7 +134,6 @@
             color: #111827;
 
             font-size: 23px;
-
             font-weight: 900;
         }
 
@@ -137,7 +142,6 @@
             height: 40px;
 
             display: flex;
-
             align-items: center;
             justify-content: center;
 
@@ -153,7 +157,6 @@
             color: white;
 
             font-size: 20px;
-
             font-weight: 900;
 
             box-shadow:
@@ -163,9 +166,7 @@
 
         nav {
             display: flex;
-
             align-items: center;
-
             gap: 28px;
         }
 
@@ -173,7 +174,6 @@
             color: #657084;
 
             font-size: 14px;
-
             font-weight: 700;
 
             transition: 0.2s;
@@ -184,9 +184,7 @@
         }
 
 
-        /* =========================
-           HERO
-        ========================== */
+        /* HERO */
 
         .hero {
             padding: 80px 0 85px;
@@ -196,7 +194,6 @@
 
         .badge {
             display: inline-flex;
-
             align-items: center;
 
             padding: 7px 15px;
@@ -206,11 +203,9 @@
             border-radius: 999px;
 
             background: #eaf1ff;
-
             color: #2563eb;
 
             font-size: 12px;
-
             font-weight: 800;
 
             letter-spacing: 0.8px;
@@ -246,9 +241,7 @@
         }
 
 
-        /* =========================
-           TOOL CARD
-        ========================== */
+        /* TOOL */
 
         .tool-wrapper {
             max-width: 800px;
@@ -273,9 +266,7 @@
         }
 
 
-        /* =========================
-           DROP AREA
-        ========================== */
+        /* DROP AREA */
 
         .drop-area {
             min-height: 360px;
@@ -285,11 +276,9 @@
             padding: 45px 25px;
 
             display: flex;
-
             flex-direction: column;
 
             align-items: center;
-
             justify-content: center;
 
             text-align: center;
@@ -305,13 +294,11 @@
 
         .drop-area:hover {
             border-color: #2563eb;
-
             background: #f8fbff;
         }
 
         .drop-area.dragover {
             border-color: #2563eb;
-
             background: #eff6ff;
 
             transform: scale(1.01);
@@ -322,7 +309,6 @@
             height: 72px;
 
             display: flex;
-
             align-items: center;
             justify-content: center;
 
@@ -331,11 +317,9 @@
             border-radius: 20px;
 
             background: #eaf1ff;
-
             color: #2563eb;
 
             font-size: 34px;
-
             font-weight: 900;
         }
 
@@ -349,7 +333,6 @@
 
         .drop-area p {
             color: #7a8597;
-
             font-size: 15px;
         }
 
@@ -365,7 +348,6 @@
             display: inline-flex;
 
             align-items: center;
-
             justify-content: center;
 
             padding: 13px 27px;
@@ -373,11 +355,9 @@
             border-radius: 11px;
 
             background: #2563eb;
-
             color: white;
 
             font-size: 15px;
-
             font-weight: 800;
 
             cursor: pointer;
@@ -404,9 +384,7 @@
         }
 
 
-        /* =========================
-           SETTINGS
-        ========================== */
+        /* SETTINGS */
 
         .settings {
             padding: 28px;
@@ -432,7 +410,6 @@
 
         .summary-item {
             display: flex;
-
             flex-direction: column;
 
             gap: 3px;
@@ -442,7 +419,6 @@
             color: #8a94a5;
 
             font-size: 12px;
-
             font-weight: 600;
         }
 
@@ -460,7 +436,6 @@
             color: #263044;
 
             font-size: 14px;
-
             font-weight: 800;
         }
 
@@ -491,13 +466,10 @@
         }
 
 
-        /* =========================
-           IMAGE LIST
-        ========================== */
+        /* IMAGE LIST */
 
         .image-list {
             display: flex;
-
             flex-direction: column;
 
             gap: 10px;
@@ -509,7 +481,6 @@
             display: flex;
 
             align-items: center;
-
             justify-content: space-between;
 
             gap: 15px;
@@ -527,7 +498,6 @@
             min-width: 0;
 
             display: flex;
-
             align-items: center;
 
             gap: 12px;
@@ -540,19 +510,15 @@
             flex-shrink: 0;
 
             display: flex;
-
             align-items: center;
-
             justify-content: center;
 
             border-radius: 9px;
 
             background: #eaf1ff;
-
             color: #2563eb;
 
             font-size: 13px;
-
             font-weight: 800;
         }
 
@@ -560,7 +526,6 @@
             min-width: 0;
 
             display: flex;
-
             flex-direction: column;
         }
 
@@ -610,15 +575,12 @@
         }
 
 
-        /* =========================
-           ADD MORE
-        ========================== */
+        /* ADD MORE */
 
         .add-more {
             display: inline-flex;
 
             align-items: center;
-
             justify-content: center;
 
             width: 100%;
@@ -636,7 +598,6 @@
             color: #536075;
 
             font-size: 14px;
-
             font-weight: 700;
 
             cursor: pointer;
@@ -651,9 +612,7 @@
         }
 
 
-        /* =========================
-           COMPRESS BUTTON
-        ========================== */
+        /* BUTTON */
 
         .compress-button {
             width: 100%;
@@ -669,7 +628,6 @@
             color: white;
 
             font-size: 16px;
-
             font-weight: 800;
 
             cursor: pointer;
@@ -690,9 +648,7 @@
         }
 
 
-        /* =========================
-           RESULT
-        ========================== */
+        /* RESULT */
 
         .result {
             padding: 32px;
@@ -709,7 +665,6 @@
             display: flex;
 
             align-items: center;
-
             justify-content: center;
 
             border-radius: 50%;
@@ -719,7 +674,6 @@
             color: #16a34a;
 
             font-size: 27px;
-
             font-weight: 900;
         }
 
@@ -776,7 +730,6 @@
             display: flex;
 
             align-items: center;
-
             justify-content: center;
 
             width: 100%;
@@ -794,7 +747,6 @@
             color: white;
 
             font-size: 15px;
-
             font-weight: 800;
 
             cursor: pointer;
@@ -820,7 +772,6 @@
             color: #596273;
 
             font-size: 14px;
-
             font-weight: 700;
 
             cursor: pointer;
@@ -831,9 +782,7 @@
         }
 
 
-        /* =========================
-           TOOLS SECTION
-        ========================== */
+        /* TOOLS */
 
         .tools {
             padding: 75px 0;
@@ -906,7 +855,6 @@
             display: flex;
 
             align-items: center;
-
             justify-content: center;
 
             margin-bottom: 17px;
@@ -935,9 +883,7 @@
         }
 
 
-        /* =========================
-           ABOUT
-        ========================== */
+        /* ABOUT */
 
         .about {
             padding: 70px 0;
@@ -964,9 +910,48 @@
         }
 
 
-        /* =========================
-           FOOTER
-        ========================== */
+        /* FAQ */
+
+        .faq {
+            padding: 75px 0;
+
+            background: #f7f9fc;
+        }
+
+        .faq-container {
+            max-width: 800px;
+
+            margin: auto;
+        }
+
+        .faq-item {
+            margin-bottom: 12px;
+
+            padding: 20px 22px;
+
+            background: white;
+
+            border: 1px solid #e5e9ef;
+
+            border-radius: 13px;
+        }
+
+        .faq-item h3 {
+            margin-bottom: 7px;
+
+            color: #172033;
+
+            font-size: 16px;
+        }
+
+        .faq-item p {
+            color: #778294;
+
+            font-size: 14px;
+        }
+
+
+        /* FOOTER */
 
         footer {
             padding: 30px 0;
@@ -985,18 +970,14 @@
         }
 
 
-        /* =========================
-           HIDDEN
-        ========================== */
+        /* HIDDEN */
 
         .hidden {
             display: none !important;
         }
 
 
-        /* =========================
-           MOBILE
-        ========================== */
+        /* MOBILE */
 
         @media (max-width: 700px) {
 
@@ -1084,9 +1065,7 @@
 <body>
 
 
-    <!-- =========================
-         HEADER
-    ========================== -->
+    <!-- HEADER -->
 
     <header>
 
@@ -1116,6 +1095,10 @@
                     Tools
                 </a>
 
+                <a href="#faq">
+                    FAQ
+                </a>
+
                 <a href="#about">
                     About
                 </a>
@@ -1128,16 +1111,12 @@
 
 
 
-    <!-- =========================
-         MAIN
-    ========================== -->
+    <!-- MAIN -->
 
     <main>
 
 
-        <!-- =========================
-             HERO
-        ========================== -->
+        <!-- HERO -->
 
         <section
             id="compressor"
@@ -1148,38 +1127,37 @@
 
 
                 <div class="badge">
-                    ✦ FREE ONLINE TOOLS
+                    ✦ FREE ONLINE IMAGE COMPRESSOR
                 </div>
 
 
                 <h1>
 
-                    Simple Tools.
-                    <span>Smarter Work.</span>
+                    Compress Images
+                    <span>Fast & Free.</span>
 
                 </h1>
 
 
                 <p class="hero-description">
 
-                    Fast, simple and free online tools
-                    designed to make everyday digital
-                    tasks easier.
+                    Reduce JPG, PNG and WebP image file sizes
+                    online without installing software.
+                    Compress multiple images at once directly
+                    in your browser.
 
                 </p>
 
 
 
-                <!-- =========================
-                     IMAGE COMPRESSOR
-                ========================== -->
+                <!-- COMPRESSOR -->
 
                 <div class="tool-wrapper">
 
                     <div class="tool-card">
 
 
-                        <!-- UPLOAD AREA -->
+                        <!-- UPLOAD -->
 
                         <div
                             id="dropArea"
@@ -1361,7 +1339,7 @@
 
 
                             <p class="result-subtitle">
-                                Your images are ready.
+                                Your compressed images are ready.
                             </p>
 
 
@@ -1440,9 +1418,7 @@
 
 
 
-        <!-- =========================
-             TOOLS
-        ========================== -->
+        <!-- TOOLS -->
 
         <section
             id="tools"
@@ -1455,12 +1431,12 @@
                 <div class="section-heading">
 
                     <h2>
-                        Useful Tools, All in One Place
+                        Free Online Tools
                     </h2>
 
                     <p>
-                        ToolForge is growing into a collection
-                        of simple and useful online utilities.
+                        Simple browser-based utilities designed
+                        to make everyday digital tasks easier.
                     </p>
 
                 </div>
@@ -1482,7 +1458,7 @@
 
                         <p>
                             Compress multiple JPG, PNG and WebP
-                            images quickly while reducing file size.
+                            images quickly and reduce their file size.
                         </p>
 
                     </div>
@@ -1500,8 +1476,8 @@
                         </h3>
 
                         <p>
-                            Choose a target size such as 50 KB,
-                            100 KB, 200 KB or 500 KB.
+                            Choose a target size such as 20 KB,
+                            50 KB, 100 KB, 200 KB or 500 KB.
                         </p>
 
                     </div>
@@ -1515,12 +1491,13 @@
                         </div>
 
                         <h3>
-                            Privacy Friendly
+                            Browser Processing
                         </h3>
 
                         <p>
-                            Image processing happens directly
-                            in your browser.
+                            Your images are processed directly
+                            in your browser instead of being
+                            uploaded to a server.
                         </p>
 
                     </div>
@@ -1534,9 +1511,131 @@
 
 
 
-        <!-- =========================
-             ABOUT
-        ========================== -->
+        <!-- FAQ -->
+
+        <section
+            id="faq"
+            class="faq"
+        >
+
+            <div class="container faq-container">
+
+
+                <div class="section-heading">
+
+                    <h2>
+                        Frequently Asked Questions
+                    </h2>
+
+                    <p>
+                        Common questions about image compression.
+                    </p>
+
+                </div>
+
+
+
+                <div class="faq-item">
+
+                    <h3>
+                        What is an image compressor?
+                    </h3>
+
+                    <p>
+                        An image compressor reduces the file size
+                        of an image while trying to maintain useful
+                        visual quality. Smaller images are easier
+                        to store, share and upload.
+                    </p>
+
+                </div>
+
+
+
+                <div class="faq-item">
+
+                    <h3>
+                        Can I compress multiple images?
+                    </h3>
+
+                    <p>
+                        Yes. ToolForge supports selecting multiple
+                        JPG, PNG and WebP images and processing them
+                        together.
+                    </p>
+
+                </div>
+
+
+
+                <div class="faq-item">
+
+                    <h3>
+                        Is ToolForge free?
+                    </h3>
+
+                    <p>
+                        Yes. ToolForge's image compressor is free
+                        to use.
+                    </p>
+
+                </div>
+
+
+
+                <div class="faq-item">
+
+                    <h3>
+                        Are my images uploaded to a server?
+                    </h3>
+
+                    <p>
+                        The image compression process runs directly
+                        inside your web browser. Your original
+                        images do not need to be uploaded to our
+                        server for compression.
+                    </p>
+
+                </div>
+
+
+
+                <div class="faq-item">
+
+                    <h3>
+                        Which image formats are supported?
+                    </h3>
+
+                    <p>
+                        ToolForge currently supports JPG, PNG and
+                        WebP image files.
+                    </p>
+
+                </div>
+
+
+
+                <div class="faq-item">
+
+                    <h3>
+                        Can I choose the target image size?
+                    </h3>
+
+                    <p>
+                        Yes. You can select a target size of
+                        20 KB, 50 KB, 100 KB, 200 KB or 500 KB.
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ABOUT -->
 
         <section
             id="about"
@@ -1550,30 +1649,31 @@
                 </h2>
 
                 <p>
-                    ToolForge is building a collection of
-                    simple, fast and free online tools that
-                    help people complete everyday digital
-                    tasks without complicated software.
+                    ToolForge is building a collection of simple,
+                    fast and free online tools that help people
+                    complete everyday digital tasks without
+                    complicated software. Our goal is to make
+                    useful web utilities accessible from any
+                    modern browser.
                 </p>
 
             </div>
 
         </section>
 
+
     </main>
 
 
 
-    <!-- =========================
-         FOOTER
-    ========================== -->
+    <!-- FOOTER -->
 
     <footer>
 
         <div class="container">
 
             © 2026 <strong>ToolForge</strong> •
-            Simple Tools. Smarter Work.
+            Free Online Tools
 
         </div>
 
@@ -1581,21 +1681,18 @@
 
 
 
-    <!-- =========================
-         ZIP LIBRARY
-    ========================== -->
+    <!-- JSZip -->
 
     <script
         src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"
     ></script>
 
 
-    <!-- =========================
-         YOUR JAVASCRIPT
-    ========================== -->
+    <!-- YOUR JAVASCRIPT -->
 
     <script src="script.js"></script>
 
 
 </body>
+
 </html>
