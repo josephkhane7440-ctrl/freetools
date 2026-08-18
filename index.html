@@ -10,23 +10,26 @@
         content="width=device-width, initial-scale=1.0"
     >
 
-    <title>
-        ToolForge - Free Image Compressor & Online Tools
-    </title>
+    <title>Free Image Compressor - Compress JPG, PNG & WebP Online | ToolForge</title>
 
     <meta
         name="description"
-        content="ToolForge provides free online tools including image compression. Compress JPG, PNG and WebP images quickly, privately and easily."
+        content="Compress JPG, PNG and WebP images online for free with ToolForge. Reduce image file size quickly, choose a target size, and download compressed images as a ZIP."
     >
 
     <meta
         name="keywords"
-        content="image compressor, free image compressor, compress image, compress JPG, compress PNG, compress WebP, online image compressor, reduce image size, free online tools, ToolForge"
+        content="image compressor, free image compressor, compress image online, JPG compressor, PNG compressor, WebP compressor, reduce image size, compress JPG, compress PNG, compress WebP, image compression tool, online image compressor"
     >
 
     <meta
         name="robots"
         content="index, follow"
+    >
+
+    <meta
+        name="author"
+        content="ToolForge"
     >
 
     <meta
@@ -39,16 +42,17 @@
         href="https://josephkhane7440-ctrl.github.io/freetools/"
     >
 
+
     <!-- Open Graph -->
 
     <meta
         property="og:title"
-        content="ToolForge - Free Image Compressor & Online Tools"
+        content="Free Image Compressor - ToolForge"
     >
 
     <meta
         property="og:description"
-        content="Compress JPG, PNG and WebP images online for free with ToolForge."
+        content="Compress JPG, PNG and WebP images online for free. Choose a target size and download your compressed images."
     >
 
     <meta
@@ -61,6 +65,49 @@
         content="https://josephkhane7440-ctrl.github.io/freetools/"
     >
 
+    <meta
+        property="og:site_name"
+        content="ToolForge"
+    >
+
+
+    <!-- Twitter -->
+
+    <meta
+        name="twitter:card"
+        content="summary"
+    >
+
+    <meta
+        name="twitter:title"
+        content="Free Image Compressor - ToolForge"
+    >
+
+    <meta
+        name="twitter:description"
+        content="Compress JPG, PNG and WebP images online for free with ToolForge."
+    >
+
+
+    <!-- Structured Data -->
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "ToolForge Image Compressor",
+        "url": "https://josephkhane7440-ctrl.github.io/freetools/",
+        "description": "Free online image compressor for JPG, PNG and WebP images.",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Web Browser",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        }
+    }
+    </script>
+
 
     <style>
 
@@ -70,9 +117,11 @@
             box-sizing: border-box;
         }
 
+
         html {
             scroll-behavior: smooth;
         }
+
 
         body {
             font-family:
@@ -82,10 +131,12 @@
                 sans-serif;
 
             background: #f7f9fc;
+
             color: #172033;
 
             line-height: 1.6;
         }
+
 
         button,
         select,
@@ -93,40 +144,55 @@
             font-family: inherit;
         }
 
+
         a {
             text-decoration: none;
         }
 
+
         .container {
             width: min(1120px, 92%);
+
             margin: auto;
         }
 
 
-        /* HEADER */
+        /* =========================
+           HEADER
+        ========================== */
 
         header {
             position: sticky;
+
             top: 0;
+
             z-index: 1000;
 
-            background: rgba(255,255,255,0.97);
+            background:
+                rgba(255,255,255,0.97);
 
-            backdrop-filter: blur(12px);
+            backdrop-filter:
+                blur(12px);
 
-            border-bottom: 1px solid #e8ecf2;
+            border-bottom:
+                1px solid #e8ecf2;
         }
+
 
         .header-inner {
             min-height: 72px;
 
             display: flex;
+
             align-items: center;
+
             justify-content: space-between;
         }
 
+
         .logo {
             display: flex;
+
             align-items: center;
 
             gap: 10px;
@@ -134,15 +200,20 @@
             color: #111827;
 
             font-size: 23px;
+
             font-weight: 900;
         }
 
+
         .logo-icon {
             width: 40px;
+
             height: 40px;
 
             display: flex;
+
             align-items: center;
+
             justify-content: center;
 
             border-radius: 12px;
@@ -157,6 +228,7 @@
             color: white;
 
             font-size: 20px;
+
             font-weight: 900;
 
             box-shadow:
@@ -164,57 +236,73 @@
                 rgba(37,99,235,0.25);
         }
 
+
         nav {
             display: flex;
+
             align-items: center;
-            gap: 28px;
+
+            gap: 25px;
         }
+
 
         nav a {
             color: #657084;
 
             font-size: 14px;
+
             font-weight: 700;
 
             transition: 0.2s;
         }
+
 
         nav a:hover {
             color: #2563eb;
         }
 
 
-        /* HERO */
+        /* =========================
+           HERO
+        ========================== */
 
         .hero {
-            padding: 80px 0 85px;
+            padding:
+                80px 0 85px;
 
             text-align: center;
         }
 
+
         .badge {
             display: inline-flex;
+
             align-items: center;
 
-            padding: 7px 15px;
+            padding:
+                7px 15px;
 
             margin-bottom: 20px;
 
             border-radius: 999px;
 
             background: #eaf1ff;
+
             color: #2563eb;
 
             font-size: 12px;
+
             font-weight: 800;
 
             letter-spacing: 0.8px;
         }
 
-        .hero h1 {
-            max-width: 850px;
 
-            margin: 0 auto 20px;
+        .hero h1 {
+            max-width: 900px;
+
+            margin:
+                0 auto 20px;
 
             color: #111827;
 
@@ -226,12 +314,14 @@
             letter-spacing: -3px;
         }
 
+
         .hero h1 span {
             color: #2563eb;
         }
 
+
         .hero-description {
-            max-width: 700px;
+            max-width: 720px;
 
             margin: auto;
 
@@ -241,22 +331,27 @@
         }
 
 
-        /* TOOL */
+        /* =========================
+           TOOL
+        ========================== */
 
         .tool-wrapper {
             max-width: 800px;
 
-            margin: 45px auto 0;
+            margin:
+                45px auto 0;
 
             text-align: left;
         }
+
 
         .tool-card {
             overflow: hidden;
 
             background: white;
 
-            border: 1px solid #e3e8f0;
+            border:
+                1px solid #e3e8f0;
 
             border-radius: 22px;
 
@@ -266,24 +361,30 @@
         }
 
 
-        /* DROP AREA */
+        /* =========================
+           DROP AREA
+        ========================== */
 
         .drop-area {
             min-height: 360px;
 
             margin: 18px;
 
-            padding: 45px 25px;
+            padding:
+                45px 25px;
 
             display: flex;
+
             flex-direction: column;
 
             align-items: center;
+
             justify-content: center;
 
             text-align: center;
 
-            border: 2px dashed #cbd5e1;
+            border:
+                2px dashed #cbd5e1;
 
             border-radius: 17px;
 
@@ -292,24 +393,32 @@
             transition: 0.2s;
         }
 
+
         .drop-area:hover {
             border-color: #2563eb;
+
             background: #f8fbff;
         }
 
+
         .drop-area.dragover {
             border-color: #2563eb;
+
             background: #eff6ff;
 
             transform: scale(1.01);
         }
 
+
         .upload-icon {
             width: 72px;
+
             height: 72px;
 
             display: flex;
+
             align-items: center;
+
             justify-content: center;
 
             margin-bottom: 20px;
@@ -317,11 +426,14 @@
             border-radius: 20px;
 
             background: #eaf1ff;
+
             color: #2563eb;
 
             font-size: 34px;
+
             font-weight: 900;
         }
+
 
         .drop-area h2 {
             margin-bottom: 8px;
@@ -331,33 +443,44 @@
             font-size: 25px;
         }
 
+
         .drop-area p {
             color: #7a8597;
+
             font-size: 15px;
         }
 
+
         .or {
-            margin: 13px 0 !important;
+            margin:
+                13px 0 !important;
 
-            color: #a0a8b5 !important;
+            color:
+                #a0a8b5 !important;
 
-            font-size: 13px !important;
+            font-size:
+                13px !important;
         }
+
 
         .upload-button {
             display: inline-flex;
 
             align-items: center;
+
             justify-content: center;
 
-            padding: 13px 27px;
+            padding:
+                13px 27px;
 
             border-radius: 11px;
 
             background: #2563eb;
+
             color: white;
 
             font-size: 15px;
+
             font-weight: 800;
 
             cursor: pointer;
@@ -369,31 +492,41 @@
             transition: 0.2s;
         }
 
+
         .upload-button:hover {
             background: #1d4ed8;
 
-            transform: translateY(-2px);
+            transform:
+                translateY(-2px);
         }
+
 
         .supported {
-            margin-top: 18px !important;
+            margin-top:
+                18px !important;
 
-            color: #9aa3b1 !important;
+            color:
+                #9aa3b1 !important;
 
-            font-size: 12px !important;
+            font-size:
+                12px !important;
         }
 
 
-        /* SETTINGS */
+        /* =========================
+           SETTINGS
+        ========================== */
 
         .settings {
             padding: 28px;
         }
 
+
         .file-summary {
             display: flex;
 
-            justify-content: space-between;
+            justify-content:
+                space-between;
 
             gap: 15px;
 
@@ -403,30 +536,37 @@
 
             background: #f7f9fc;
 
-            border: 1px solid #edf0f5;
+            border:
+                1px solid #edf0f5;
 
             border-radius: 13px;
         }
 
+
         .summary-item {
             display: flex;
+
             flex-direction: column;
 
             gap: 3px;
         }
 
+
         .summary-item span {
             color: #8a94a5;
 
             font-size: 12px;
+
             font-weight: 600;
         }
+
 
         .summary-item strong {
             color: #172033;
 
             font-size: 15px;
         }
+
 
         .settings label {
             display: block;
@@ -436,8 +576,10 @@
             color: #263044;
 
             font-size: 14px;
+
             font-weight: 800;
         }
+
 
         .settings select {
             width: 100%;
@@ -446,7 +588,8 @@
 
             margin-bottom: 18px;
 
-            border: 1px solid #d8dee8;
+            border:
+                1px solid #d8dee8;
 
             border-radius: 11px;
 
@@ -461,15 +604,19 @@
             cursor: pointer;
         }
 
+
         .settings select:focus {
             border-color: #2563eb;
         }
 
 
-        /* IMAGE LIST */
+        /* =========================
+           IMAGE LIST
+        ========================== */
 
         .image-list {
             display: flex;
+
             flex-direction: column;
 
             gap: 10px;
@@ -477,57 +624,73 @@
             margin-bottom: 22px;
         }
 
+
         .image-item {
             display: flex;
 
             align-items: center;
-            justify-content: space-between;
+
+            justify-content:
+                space-between;
 
             gap: 15px;
 
-            padding: 12px 14px;
+            padding:
+                12px 14px;
 
-            border: 1px solid #e5e9ef;
+            border:
+                1px solid #e5e9ef;
 
             border-radius: 12px;
 
             background: white;
         }
 
+
         .image-item-left {
             min-width: 0;
 
             display: flex;
+
             align-items: center;
 
             gap: 12px;
         }
 
+
         .image-number {
             width: 34px;
+
             height: 34px;
 
             flex-shrink: 0;
 
             display: flex;
+
             align-items: center;
+
             justify-content: center;
 
             border-radius: 9px;
 
             background: #eaf1ff;
+
             color: #2563eb;
 
             font-size: 13px;
+
             font-weight: 800;
         }
+
 
         .image-details {
             min-width: 0;
 
             display: flex;
+
             flex-direction: column;
         }
+
 
         .image-details strong {
             max-width: 440px;
@@ -543,19 +706,23 @@
             font-size: 14px;
         }
 
+
         .image-details span {
             color: #8a94a5;
 
             font-size: 12px;
         }
 
+
         .remove-image {
             flex-shrink: 0;
 
             width: 32px;
+
             height: 32px;
 
-            border: 1px solid #e1e5eb;
+            border:
+                1px solid #e1e5eb;
 
             border-radius: 8px;
 
@@ -566,6 +733,7 @@
             cursor: pointer;
         }
 
+
         .remove-image:hover {
             background: #fff5f5;
 
@@ -575,12 +743,15 @@
         }
 
 
-        /* ADD MORE */
+        /* =========================
+           ADD MORE
+        ========================== */
 
         .add-more {
             display: inline-flex;
 
             align-items: center;
+
             justify-content: center;
 
             width: 100%;
@@ -589,7 +760,8 @@
 
             margin-bottom: 18px;
 
-            border: 1px dashed #b9c3d1;
+            border:
+                1px dashed #b9c3d1;
 
             border-radius: 10px;
 
@@ -598,10 +770,12 @@
             color: #536075;
 
             font-size: 14px;
+
             font-weight: 700;
 
             cursor: pointer;
         }
+
 
         .add-more:hover {
             border-color: #2563eb;
@@ -612,7 +786,9 @@
         }
 
 
-        /* BUTTON */
+        /* =========================
+           COMPRESS BUTTON
+        ========================== */
 
         .compress-button {
             width: 100%;
@@ -628,6 +804,7 @@
             color: white;
 
             font-size: 16px;
+
             font-weight: 800;
 
             cursor: pointer;
@@ -635,11 +812,14 @@
             transition: 0.2s;
         }
 
+
         .compress-button:hover {
             background: #1d4ed8;
 
-            transform: translateY(-1px);
+            transform:
+                translateY(-1px);
         }
+
 
         .compress-button:disabled {
             opacity: 0.7;
@@ -648,7 +828,9 @@
         }
 
 
-        /* RESULT */
+        /* =========================
+           RESULT
+        ========================== */
 
         .result {
             padding: 32px;
@@ -656,15 +838,19 @@
             text-align: center;
         }
 
+
         .success-icon {
             width: 58px;
+
             height: 58px;
 
-            margin: 0 auto 14px;
+            margin:
+                0 auto 14px;
 
             display: flex;
 
             align-items: center;
+
             justify-content: center;
 
             border-radius: 50%;
@@ -674,14 +860,17 @@
             color: #16a34a;
 
             font-size: 27px;
+
             font-weight: 900;
         }
+
 
         .result h2 {
             margin-bottom: 7px;
 
             font-size: 26px;
         }
+
 
         .result-subtitle {
             margin-bottom: 28px;
@@ -690,6 +879,7 @@
 
             font-size: 14px;
         }
+
 
         .result-info {
             display: grid;
@@ -702,21 +892,25 @@
             margin-bottom: 22px;
         }
 
+
         .result-box {
             padding: 16px;
 
             background: #f7f9fc;
 
-            border: 1px solid #edf0f5;
+            border:
+                1px solid #edf0f5;
 
             border-radius: 12px;
         }
+
 
         .result-box span {
             color: #8a94a5;
 
             font-size: 12px;
         }
+
 
         .result-box strong {
             display: block;
@@ -726,10 +920,12 @@
             font-size: 17px;
         }
 
+
         .download-button {
             display: flex;
 
             align-items: center;
+
             justify-content: center;
 
             width: 100%;
@@ -747,6 +943,7 @@
             color: white;
 
             font-size: 15px;
+
             font-weight: 800;
 
             cursor: pointer;
@@ -754,16 +951,19 @@
             transition: 0.2s;
         }
 
+
         .download-button:hover {
             background: #15803d;
         }
+
 
         .reset-button {
             width: 100%;
 
             padding: 13px;
 
-            border: 1px solid #d9dee7;
+            border:
+                1px solid #d9dee7;
 
             border-radius: 11px;
 
@@ -772,17 +972,21 @@
             color: #596273;
 
             font-size: 14px;
+
             font-weight: 700;
 
             cursor: pointer;
         }
+
 
         .reset-button:hover {
             background: #f7f9fc;
         }
 
 
-        /* TOOLS */
+        /* =========================
+           TOOLS SECTION
+        ========================== */
 
         .tools {
             padding: 75px 0;
@@ -793,13 +997,16 @@
                 1px solid #e8ecf2;
         }
 
+
         .section-heading {
             max-width: 650px;
 
-            margin: 0 auto 38px;
+            margin:
+                0 auto 38px;
 
             text-align: center;
         }
+
 
         .section-heading h2 {
             margin-bottom: 10px;
@@ -811,11 +1018,13 @@
             letter-spacing: -1px;
         }
 
+
         .section-heading p {
             color: #778294;
 
             font-size: 15px;
         }
+
 
         .tool-grid {
             display: grid;
@@ -826,35 +1035,43 @@
             gap: 18px;
         }
 
+
         .tool-feature {
             padding: 27px;
 
             background: #f8fafc;
 
-            border: 1px solid #e7ebf1;
+            border:
+                1px solid #e7ebf1;
 
             border-radius: 16px;
 
             transition: 0.2s;
         }
 
-        .tool-feature:hover {
-            transform: translateY(-4px);
 
-            border-color: #cbdafc;
+        .tool-feature:hover {
+            transform:
+                translateY(-4px);
+
+            border-color:
+                #cbdafc;
 
             box-shadow:
                 0 12px 30px
                 rgba(17,24,39,0.06);
         }
 
+
         .tool-feature-icon {
             width: 46px;
+
             height: 46px;
 
             display: flex;
 
             align-items: center;
+
             justify-content: center;
 
             margin-bottom: 17px;
@@ -868,6 +1085,7 @@
             font-size: 21px;
         }
 
+
         .tool-feature h3 {
             margin-bottom: 7px;
 
@@ -876,6 +1094,7 @@
             font-size: 17px;
         }
 
+
         .tool-feature p {
             color: #788294;
 
@@ -883,13 +1102,67 @@
         }
 
 
-        /* ABOUT */
+        /* =========================
+           SEO CONTENT
+        ========================== */
+
+        .seo-content {
+            padding: 70px 0;
+
+            background: #f7f9fc;
+        }
+
+
+        .seo-content-inner {
+            max-width: 850px;
+
+            margin: auto;
+        }
+
+
+        .seo-content h2 {
+            margin-bottom: 16px;
+
+            color: #111827;
+
+            font-size: 30px;
+
+            text-align: center;
+        }
+
+
+        .seo-content h3 {
+            margin-top: 28px;
+
+            margin-bottom: 8px;
+
+            color: #172033;
+
+            font-size: 20px;
+        }
+
+
+        .seo-content p {
+            margin-bottom: 12px;
+
+            color: #667085;
+
+            font-size: 15px;
+        }
+
+
+        /* =========================
+           ABOUT
+        ========================== */
 
         .about {
             padding: 70px 0;
 
             text-align: center;
+
+            background: white;
         }
+
 
         .about h2 {
             margin-bottom: 10px;
@@ -898,6 +1171,7 @@
 
             font-size: 30px;
         }
+
 
         .about p {
             max-width: 700px;
@@ -910,48 +1184,9 @@
         }
 
 
-        /* FAQ */
-
-        .faq {
-            padding: 75px 0;
-
-            background: #f7f9fc;
-        }
-
-        .faq-container {
-            max-width: 800px;
-
-            margin: auto;
-        }
-
-        .faq-item {
-            margin-bottom: 12px;
-
-            padding: 20px 22px;
-
-            background: white;
-
-            border: 1px solid #e5e9ef;
-
-            border-radius: 13px;
-        }
-
-        .faq-item h3 {
-            margin-bottom: 7px;
-
-            color: #172033;
-
-            font-size: 16px;
-        }
-
-        .faq-item p {
-            color: #778294;
-
-            font-size: 14px;
-        }
-
-
-        /* FOOTER */
+        /* =========================
+           FOOTER
+        ========================== */
 
         footer {
             padding: 30px 0;
@@ -965,19 +1200,49 @@
             font-size: 13px;
         }
 
+
         footer strong {
             color: white;
         }
 
 
-        /* HIDDEN */
+        .footer-links {
+            margin-top: 10px;
+
+            display: flex;
+
+            justify-content: center;
+
+            gap: 18px;
+
+            flex-wrap: wrap;
+        }
+
+
+        .footer-links a {
+            color: #cbd5e1;
+
+            font-size: 13px;
+        }
+
+
+        .footer-links a:hover {
+            color: white;
+        }
+
+
+        /* =========================
+           HIDDEN
+        ========================== */
 
         .hidden {
             display: none !important;
         }
 
 
-        /* MOBILE */
+        /* =========================
+           MOBILE
+        ========================== */
 
         @media (max-width: 700px) {
 
@@ -985,21 +1250,27 @@
                 min-height: 64px;
             }
 
+
             .logo {
                 font-size: 20px;
             }
 
+
             nav {
-                gap: 14px;
+                gap: 12px;
             }
+
 
             nav a {
                 font-size: 12px;
             }
 
+
             .hero {
-                padding: 55px 0 65px;
+                padding:
+                    55px 0 65px;
             }
+
 
             .hero h1 {
                 font-size: 40px;
@@ -1007,22 +1278,28 @@
                 letter-spacing: -2px;
             }
 
+
             .hero-description {
                 font-size: 16px;
             }
+
 
             .drop-area {
                 min-height: 320px;
 
                 margin: 12px;
 
-                padding: 30px 15px;
+                padding:
+                    30px 15px;
             }
+
 
             .settings,
             .result {
-                padding: 22px 17px;
+                padding:
+                    22px 17px;
             }
+
 
             .file-summary {
                 flex-direction: column;
@@ -1030,12 +1307,27 @@
                 gap: 10px;
             }
 
+
             .result-info {
-                grid-template-columns: 1fr;
+                grid-template-columns:
+                    1fr;
             }
 
+
             .tool-grid {
-                grid-template-columns: 1fr;
+                grid-template-columns:
+                    1fr;
+            }
+
+
+            .seo-content {
+                padding:
+                    55px 0;
+            }
+
+
+            .seo-content h2 {
+                font-size: 27px;
             }
 
         }
@@ -1046,10 +1338,12 @@
             .header-inner {
                 flex-direction: column;
 
-                padding: 10px 0;
+                padding:
+                    10px 0;
 
                 gap: 4px;
             }
+
 
             .hero h1 {
                 font-size: 35px;
@@ -1065,15 +1359,18 @@
 <body>
 
 
-    <!-- HEADER -->
+    <!-- =========================
+         HEADER
+    ========================== -->
 
     <header>
 
         <div class="container header-inner">
 
             <a
-                href="#"
+                href="#compressor"
                 class="logo"
+                aria-label="ToolForge Home"
             >
 
                 <span class="logo-icon">
@@ -1085,7 +1382,7 @@
             </a>
 
 
-            <nav>
+            <nav aria-label="Main navigation">
 
                 <a href="#compressor">
                     Compressor
@@ -1093,10 +1390,6 @@
 
                 <a href="#tools">
                     Tools
-                </a>
-
-                <a href="#faq">
-                    FAQ
                 </a>
 
                 <a href="#about">
@@ -1111,12 +1404,16 @@
 
 
 
-    <!-- MAIN -->
+    <!-- =========================
+         MAIN
+    ========================== -->
 
     <main>
 
 
-        <!-- HERO -->
+        <!-- =========================
+             HERO
+        ========================== -->
 
         <section
             id="compressor"
@@ -1133,38 +1430,44 @@
 
                 <h1>
 
-                    Compress Images
-                    <span>Fast & Free.</span>
+                    Free Image
+                    <span>Compressor</span>
+                    Online
 
                 </h1>
 
 
                 <p class="hero-description">
 
-                    Reduce JPG, PNG and WebP image file sizes
-                    online without installing software.
-                    Compress multiple images at once directly
-                    in your browser.
+                    Compress multiple JPG, PNG and WebP
+                    images quickly and easily. Reduce image
+                    file size while keeping your images useful
+                    for websites, social media and everyday tasks.
 
                 </p>
 
 
 
-                <!-- COMPRESSOR -->
+                <!-- =========================
+                     IMAGE COMPRESSOR
+                ========================== -->
 
                 <div class="tool-wrapper">
 
                     <div class="tool-card">
 
 
-                        <!-- UPLOAD -->
+                        <!-- UPLOAD AREA -->
 
                         <div
                             id="dropArea"
                             class="drop-area"
                         >
 
-                            <div class="upload-icon">
+                            <div
+                                class="upload-icon"
+                                aria-hidden="true"
+                            >
                                 ↑
                             </div>
 
@@ -1313,6 +1616,7 @@
                             <button
                                 id="compressButton"
                                 class="compress-button"
+                                type="button"
                             >
                                 Compress Images
                             </button>
@@ -1328,7 +1632,10 @@
                             class="result hidden"
                         >
 
-                            <div class="success-icon">
+                            <div
+                                class="success-icon"
+                                aria-hidden="true"
+                            >
                                 ✓
                             </div>
 
@@ -1418,7 +1725,9 @@
 
 
 
-        <!-- TOOLS -->
+        <!-- =========================
+             TOOLS
+        ========================== -->
 
         <section
             id="tools"
@@ -1435,8 +1744,8 @@
                     </h2>
 
                     <p>
-                        Simple browser-based utilities designed
-                        to make everyday digital tasks easier.
+                        Simple utilities designed to make
+                        everyday digital tasks easier.
                     </p>
 
                 </div>
@@ -1448,7 +1757,10 @@
 
                     <div class="tool-feature">
 
-                        <div class="tool-feature-icon">
+                        <div
+                            class="tool-feature-icon"
+                            aria-hidden="true"
+                        >
                             ⚡
                         </div>
 
@@ -1467,7 +1779,10 @@
 
                     <div class="tool-feature">
 
-                        <div class="tool-feature-icon">
+                        <div
+                            class="tool-feature-icon"
+                            aria-hidden="true"
+                        >
                             🎯
                         </div>
 
@@ -1486,18 +1801,20 @@
 
                     <div class="tool-feature">
 
-                        <div class="tool-feature-icon">
+                        <div
+                            class="tool-feature-icon"
+                            aria-hidden="true"
+                        >
                             🔒
                         </div>
 
                         <h3>
-                            Browser Processing
+                            Browser Based Processing
                         </h3>
 
                         <p>
-                            Your images are processed directly
-                            in your browser instead of being
-                            uploaded to a server.
+                            Images are processed directly in your
+                            browser instead of being uploaded to a server.
                         </p>
 
                     </div>
@@ -1511,123 +1828,86 @@
 
 
 
-        <!-- FAQ -->
+        <!-- =========================
+             SEO CONTENT
+        ========================== -->
 
-        <section
-            id="faq"
-            class="faq"
-        >
+        <section class="seo-content">
 
-            <div class="container faq-container">
-
-
-                <div class="section-heading">
-
-                    <h2>
-                        Frequently Asked Questions
-                    </h2>
-
-                    <p>
-                        Common questions about image compression.
-                    </p>
-
-                </div>
+            <div class="container seo-content-inner">
 
 
-
-                <div class="faq-item">
-
-                    <h3>
-                        What is an image compressor?
-                    </h3>
-
-                    <p>
-                        An image compressor reduces the file size
-                        of an image while trying to maintain useful
-                        visual quality. Smaller images are easier
-                        to store, share and upload.
-                    </p>
-
-                </div>
+                <h2>
+                    Free Online Image Compressor
+                </h2>
 
 
-
-                <div class="faq-item">
-
-                    <h3>
-                        Can I compress multiple images?
-                    </h3>
-
-                    <p>
-                        Yes. ToolForge supports selecting multiple
-                        JPG, PNG and WebP images and processing them
-                        together.
-                    </p>
-
-                </div>
+                <p>
+                    ToolForge is a free online image compressor
+                    designed to help you reduce the size of
+                    JPG, PNG and WebP images quickly and easily.
+                </p>
 
 
-
-                <div class="faq-item">
-
-                    <h3>
-                        Is ToolForge free?
-                    </h3>
-
-                    <p>
-                        Yes. ToolForge's image compressor is free
-                        to use.
-                    </p>
-
-                </div>
+                <h3>
+                    Compress JPG Images
+                </h3>
 
 
-
-                <div class="faq-item">
-
-                    <h3>
-                        Are my images uploaded to a server?
-                    </h3>
-
-                    <p>
-                        The image compression process runs directly
-                        inside your web browser. Your original
-                        images do not need to be uploaded to our
-                        server for compression.
-                    </p>
-
-                </div>
+                <p>
+                    Reduce the file size of JPG photos and images
+                    without needing to install desktop software.
+                    Select your images, choose a target size and
+                    compress them directly in your browser.
+                </p>
 
 
-
-                <div class="faq-item">
-
-                    <h3>
-                        Which image formats are supported?
-                    </h3>
-
-                    <p>
-                        ToolForge currently supports JPG, PNG and
-                        WebP image files.
-                    </p>
-
-                </div>
+                <h3>
+                    Compress PNG Images
+                </h3>
 
 
+                <p>
+                    ToolForge can process PNG images and convert
+                    them into compressed JPEG files to help reduce
+                    file size for everyday online use.
+                </p>
 
-                <div class="faq-item">
 
-                    <h3>
-                        Can I choose the target image size?
-                    </h3>
+                <h3>
+                    Compress WebP Images
+                </h3>
 
-                    <p>
-                        Yes. You can select a target size of
-                        20 KB, 50 KB, 100 KB, 200 KB or 500 KB.
-                    </p>
 
-                </div>
+                <p>
+                    WebP images can also be selected and compressed
+                    using the same simple browser-based workflow.
+                </p>
 
+
+                <h3>
+                    Compress Multiple Images at Once
+                </h3>
+
+
+                <p>
+                    Instead of processing images one at a time,
+                    you can select multiple images and compress
+                    them together. The compressed files can then
+                    be downloaded as a ZIP archive.
+                </p>
+
+
+                <h3>
+                    Free and Simple
+                </h3>
+
+
+                <p>
+                    ToolForge is designed to be fast, simple and
+                    easy to use. No complicated software installation
+                    is required to use the image compressor.
+                </p>
 
             </div>
 
@@ -1635,7 +1915,9 @@
 
 
 
-        <!-- ABOUT -->
+        <!-- =========================
+             ABOUT
+        ========================== -->
 
         <section
             id="about"
@@ -1652,28 +1934,44 @@
                     ToolForge is building a collection of simple,
                     fast and free online tools that help people
                     complete everyday digital tasks without
-                    complicated software. Our goal is to make
-                    useful web utilities accessible from any
-                    modern browser.
+                    complicated software.
                 </p>
 
             </div>
 
         </section>
 
-
     </main>
 
 
 
-    <!-- FOOTER -->
+    <!-- =========================
+         FOOTER
+    ========================== -->
 
     <footer>
 
         <div class="container">
 
             © 2026 <strong>ToolForge</strong> •
-            Free Online Tools
+            Simple Tools. Smarter Work.
+
+
+            <div class="footer-links">
+
+                <a href="privacy.html">
+                    Privacy Policy
+                </a>
+
+                <a href="terms.html">
+                    Terms of Service
+                </a>
+
+                <a href="contact.html">
+                    Contact
+                </a>
+
+            </div>
 
         </div>
 
@@ -1681,14 +1979,19 @@
 
 
 
-    <!-- JSZip -->
+    <!-- =========================
+         ZIP LIBRARY
+    ========================== -->
 
     <script
         src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"
     ></script>
 
 
-    <!-- YOUR JAVASCRIPT -->
+
+    <!-- =========================
+         YOUR JAVASCRIPT
+    ========================== -->
 
     <script src="script.js"></script>
 
