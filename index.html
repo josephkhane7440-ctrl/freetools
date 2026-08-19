@@ -10,21 +10,21 @@
         content="width=device-width, initial-scale=1.0"
     >
 
-    <title>Free Image Compressor - Compress JPG, PNG & WebP Online | ToolForge</title>
+    <title>Free Image Compressor Online - Compress JPG, PNG & WebP | ToolForge</title>
 
     <meta
         name="description"
-        content="Compress JPG, PNG and WebP images online for free with ToolForge. Reduce image file size quickly, choose a target size, and download compressed images as a ZIP."
+        content="Compress JPG, PNG and WebP images online for free with ToolForge. Reduce image file size, choose a target size, process images in your browser and download compressed images as a ZIP."
     >
 
     <meta
         name="keywords"
-        content="image compressor, free image compressor, compress image online, JPG compressor, PNG compressor, WebP compressor, reduce image size, compress JPG, compress PNG, compress WebP, image compression tool, online image compressor"
+        content="free image compressor, image compressor online, compress image online, compress JPG, compress PNG, compress WebP, JPG compressor, PNG compressor, WebP compressor, reduce image size, image size reducer, photo compressor, online photo compressor"
     >
 
     <meta
         name="robots"
-        content="index, follow"
+        content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
     >
 
     <meta
@@ -43,21 +43,23 @@
     >
 
 
-    <!-- Open Graph -->
-
-    <meta
-        property="og:title"
-        content="Free Image Compressor - ToolForge"
-    >
-
-    <meta
-        property="og:description"
-        content="Compress JPG, PNG and WebP images online for free. Choose a target size and download your compressed images."
-    >
+    <!-- =========================
+         OPEN GRAPH
+    ========================== -->
 
     <meta
         property="og:type"
         content="website"
+    >
+
+    <meta
+        property="og:title"
+        content="Free Image Compressor Online - ToolForge"
+    >
+
+    <meta
+        property="og:description"
+        content="Compress JPG, PNG and WebP images online for free. Reduce image size directly in your browser and download compressed images as a ZIP."
     >
 
     <meta
@@ -70,8 +72,15 @@
         content="ToolForge"
     >
 
+    <meta
+        property="og:locale"
+        content="en_US"
+    >
 
-    <!-- Twitter -->
+
+    <!-- =========================
+         TWITTER
+    ========================== -->
 
     <meta
         name="twitter:card"
@@ -80,7 +89,7 @@
 
     <meta
         name="twitter:title"
-        content="Free Image Compressor - ToolForge"
+        content="Free Image Compressor Online - ToolForge"
     >
 
     <meta
@@ -89,7 +98,9 @@
     >
 
 
-    <!-- Structured Data -->
+    <!-- =========================
+         STRUCTURED DATA
+    ========================== -->
 
     <script type="application/ld+json">
     {
@@ -99,12 +110,35 @@
         "url": "https://josephkhane7440-ctrl.github.io/freetools/",
         "description": "Free online image compressor for JPG, PNG and WebP images.",
         "applicationCategory": "UtilitiesApplication",
-        "operatingSystem": "Web Browser",
+        "applicationSubCategory": "Image Compression",
+        "operatingSystem": "All",
+        "browserRequirements": "Requires JavaScript",
+        "isAccessibleForFree": true,
         "offers": {
             "@type": "Offer",
             "price": "0",
             "priceCurrency": "USD"
-        }
+        },
+        "featureList": [
+            "Compress JPG images",
+            "Compress PNG images",
+            "Compress WebP images",
+            "Compress multiple images",
+            "Choose target file size",
+            "Download compressed images as ZIP",
+            "Browser-based image processing"
+        ]
+    }
+    </script>
+
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "ToolForge",
+        "url": "https://josephkhane7440-ctrl.github.io/freetools/",
+        "description": "Free online tools for everyday digital tasks."
     }
     </script>
 
@@ -985,7 +1019,7 @@
 
 
         /* =========================
-           TOOLS SECTION
+           TOOLS
         ========================== */
 
         .tools {
@@ -1152,6 +1186,64 @@
 
 
         /* =========================
+           FAQ
+        ========================== */
+
+        .faq {
+            padding: 70px 0;
+
+            background: white;
+        }
+
+
+        .faq-inner {
+            max-width: 850px;
+
+            margin: auto;
+        }
+
+
+        .faq h2 {
+            margin-bottom: 35px;
+
+            color: #111827;
+
+            font-size: 30px;
+
+            text-align: center;
+        }
+
+
+        .faq-item {
+            padding:
+                20px 0;
+
+            border-bottom:
+                1px solid #e5e7eb;
+        }
+
+
+        .faq-item h3 {
+            margin-bottom: 7px;
+
+            color: #172033;
+
+            font-size: 17px;
+        }
+
+
+        .faq-item p {
+            color: #667085;
+
+            font-size: 14px;
+        }
+
+
+        /* =========================
+           FAQ STRUCTURED DATA
+        ========================== */
+
+        /* =========================
            ABOUT
         ========================== */
 
@@ -1160,7 +1252,7 @@
 
             text-align: center;
 
-            background: white;
+            background: #f7f9fc;
         }
 
 
@@ -1320,13 +1412,16 @@
             }
 
 
-            .seo-content {
+            .seo-content,
+            .faq,
+            .about {
                 padding:
                     55px 0;
             }
 
 
-            .seo-content h2 {
+            .seo-content h2,
+            .faq h2 {
                 font-size: 27px;
             }
 
@@ -1353,6 +1448,60 @@
 
     </style>
 
+
+    <!-- =========================
+         FAQ SCHEMA
+    ========================== -->
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Is ToolForge image compressor free?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. ToolForge provides a free online image compression tool that can be used without creating an account."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Which image formats are supported?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "ToolForge supports JPG, PNG and WebP images."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Are images uploaded to a server?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The image compression process is performed directly in the user's browser using JavaScript."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I compress multiple images?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Multiple JPG, PNG and WebP images can be selected and compressed together."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I download compressed images together?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Compressed images can be downloaded together as a ZIP archive."
+                }
+            }
+        ]
+    }
+    </script>
+
 </head>
 
 
@@ -1370,10 +1519,13 @@
             <a
                 href="#compressor"
                 class="logo"
-                aria-label="ToolForge Home"
+                aria-label="ToolForge home"
             >
 
-                <span class="logo-icon">
+                <span
+                    class="logo-icon"
+                    aria-hidden="true"
+                >
                     T
                 </span>
 
@@ -1392,6 +1544,10 @@
                     Tools
                 </a>
 
+                <a href="#faq">
+                    FAQ
+                </a>
+
                 <a href="#about">
                     About
                 </a>
@@ -1401,7 +1557,6 @@
         </div>
 
     </header>
-
 
 
     <!-- =========================
@@ -1439,13 +1594,12 @@
 
                 <p class="hero-description">
 
-                    Compress multiple JPG, PNG and WebP
-                    images quickly and easily. Reduce image
-                    file size while keeping your images useful
+                    Compress JPG, PNG and WebP images
+                    online for free. Reduce image file size
+                    quickly while keeping your images useful
                     for websites, social media and everyday tasks.
 
                 </p>
-
 
 
                 <!-- =========================
@@ -1511,7 +1665,6 @@
                         </div>
 
 
-
                         <!-- SETTINGS -->
 
                         <div
@@ -1552,13 +1705,11 @@
                             </div>
 
 
-
                             <div
                                 id="imageList"
                                 class="image-list"
                             >
                             </div>
-
 
 
                             <label
@@ -1576,7 +1727,6 @@
                                 multiple
                                 hidden
                             >
-
 
 
                             <label for="targetSize">
@@ -1612,7 +1762,6 @@
                             </select>
 
 
-
                             <button
                                 id="compressButton"
                                 class="compress-button"
@@ -1622,7 +1771,6 @@
                             </button>
 
                         </div>
-
 
 
                         <!-- RESULT -->
@@ -1695,7 +1843,6 @@
                             </div>
 
 
-
                             <button
                                 id="downloadButton"
                                 class="download-button"
@@ -1724,9 +1871,8 @@
         </section>
 
 
-
         <!-- =========================
-             TOOLS
+             FEATURES
         ========================== -->
 
         <section
@@ -1740,22 +1886,21 @@
                 <div class="section-heading">
 
                     <h2>
-                        Free Online Tools
+                        Free Online Image Compression Tool
                     </h2>
 
                     <p>
-                        Simple utilities designed to make
-                        everyday digital tasks easier.
+                        Simple image compression features designed
+                        for everyday digital tasks.
                     </p>
 
                 </div>
 
 
-
                 <div class="tool-grid">
 
 
-                    <div class="tool-feature">
+                    <article class="tool-feature">
 
                         <div
                             class="tool-feature-icon"
@@ -1765,19 +1910,18 @@
                         </div>
 
                         <h3>
-                            Image Compressor
+                            Compress JPG Images
                         </h3>
 
                         <p>
-                            Compress multiple JPG, PNG and WebP
-                            images quickly and reduce their file size.
+                            Reduce the file size of JPG photos and
+                            images quickly with our online compressor.
                         </p>
 
-                    </div>
+                    </article>
 
 
-
-                    <div class="tool-feature">
+                    <article class="tool-feature">
 
                         <div
                             class="tool-feature-icon"
@@ -1787,19 +1931,18 @@
                         </div>
 
                         <h3>
-                            Target File Size
+                            Choose Target File Size
                         </h3>
 
                         <p>
-                            Choose a target size such as 20 KB,
+                            Select a target size such as 20 KB,
                             50 KB, 100 KB, 200 KB or 500 KB.
                         </p>
 
-                    </div>
+                    </article>
 
 
-
-                    <div class="tool-feature">
+                    <article class="tool-feature">
 
                         <div
                             class="tool-feature-icon"
@@ -1809,15 +1952,15 @@
                         </div>
 
                         <h3>
-                            Browser Based Processing
+                            Browser-Based Processing
                         </h3>
 
                         <p>
                             Images are processed directly in your
-                            browser instead of being uploaded to a server.
+                            browser using client-side JavaScript.
                         </p>
 
-                    </div>
+                    </article>
 
 
                 </div>
@@ -1825,7 +1968,6 @@
             </div>
 
         </section>
-
 
 
         <!-- =========================
@@ -1844,75 +1986,187 @@
 
                 <p>
                     ToolForge is a free online image compressor
-                    designed to help you reduce the size of
-                    JPG, PNG and WebP images quickly and easily.
+                    designed to help you reduce JPG, PNG and WebP
+                    image file sizes quickly and easily. You can
+                    select multiple images, choose a target file
+                    size and download your compressed images.
                 </p>
 
 
                 <h3>
-                    Compress JPG Images
+                    Compress JPG Images Online
                 </h3>
 
 
                 <p>
-                    Reduce the file size of JPG photos and images
-                    without needing to install desktop software.
-                    Select your images, choose a target size and
-                    compress them directly in your browser.
+                    JPG is one of the most commonly used image
+                    formats for photographs and websites. ToolForge
+                    lets you compress JPG images online without
+                    installing desktop software.
                 </p>
 
 
                 <h3>
-                    Compress PNG Images
+                    Compress PNG Images Online
                 </h3>
 
 
                 <p>
-                    ToolForge can process PNG images and convert
-                    them into compressed JPEG files to help reduce
-                    file size for everyday online use.
+                    PNG images can sometimes have large file sizes.
+                    ToolForge can process PNG files in your browser
+                    and create compressed JPEG versions suitable
+                    for many everyday online uses.
                 </p>
 
 
                 <h3>
-                    Compress WebP Images
+                    Compress WebP Images Online
                 </h3>
 
 
                 <p>
-                    WebP images can also be selected and compressed
-                    using the same simple browser-based workflow.
+                    WebP is a modern image format commonly used on
+                    websites. ToolForge allows WebP images to be
+                    selected and processed using the same simple
+                    browser-based workflow.
                 </p>
 
 
                 <h3>
-                    Compress Multiple Images at Once
+                    Compress Multiple Images
                 </h3>
 
 
                 <p>
-                    Instead of processing images one at a time,
-                    you can select multiple images and compress
-                    them together. The compressed files can then
-                    be downloaded as a ZIP archive.
+                    You do not have to compress images one at a
+                    time. Select multiple JPG, PNG or WebP images,
+                    choose your target size and process them
+                    together.
                 </p>
 
 
                 <h3>
-                    Free and Simple
+                    Reduce Image File Size
                 </h3>
 
 
                 <p>
-                    ToolForge is designed to be fast, simple and
-                    easy to use. No complicated software installation
-                    is required to use the image compressor.
+                    Smaller image files can be easier to share,
+                    store and use on websites. ToolForge provides
+                    several target-size options so you can choose
+                    the approximate size you need.
+                </p>
+
+
+                <h3>
+                    Free Image Compressor With No Installation
+                </h3>
+
+
+                <p>
+                    ToolForge works directly in a modern web browser.
+                    There is no desktop application to install and
+                    no account is required to use the basic image
+                    compression tool.
                 </p>
 
             </div>
 
         </section>
 
+
+        <!-- =========================
+             FAQ
+        ========================== -->
+
+        <section
+            id="faq"
+            class="faq"
+        >
+
+            <div class="container faq-inner">
+
+
+                <h2>
+                    Frequently Asked Questions
+                </h2>
+
+
+                <div class="faq-item">
+
+                    <h3>
+                        Is ToolForge image compressor free?
+                    </h3>
+
+                    <p>
+                        Yes. ToolForge provides a free online
+                        image compression tool that can be used
+                        without creating an account.
+                    </p>
+
+                </div>
+
+
+                <div class="faq-item">
+
+                    <h3>
+                        Which image formats are supported?
+                    </h3>
+
+                    <p>
+                        ToolForge currently supports JPG, PNG
+                        and WebP images.
+                    </p>
+
+                </div>
+
+
+                <div class="faq-item">
+
+                    <h3>
+                        Are my images uploaded to a server?
+                    </h3>
+
+                    <p>
+                        The compression process is performed
+                        directly in your browser using JavaScript.
+                        The tool is designed for browser-based
+                        processing.
+                    </p>
+
+                </div>
+
+
+                <div class="faq-item">
+
+                    <h3>
+                        Can I compress multiple images?
+                    </h3>
+
+                    <p>
+                        Yes. You can select multiple JPG, PNG and
+                        WebP images and compress them together.
+                    </p>
+
+                </div>
+
+
+                <div class="faq-item">
+
+                    <h3>
+                        Can I download all compressed images together?
+                    </h3>
+
+                    <p>
+                        Yes. After compression, the images can be
+                        downloaded together as a ZIP archive.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
 
 
         <!-- =========================
@@ -1942,7 +2196,6 @@
         </section>
 
     </main>
-
 
 
     <!-- =========================
@@ -1978,7 +2231,6 @@
     </footer>
 
 
-
     <!-- =========================
          ZIP LIBRARY
     ========================== -->
@@ -1986,7 +2238,6 @@
     <script
         src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"
     ></script>
-
 
 
     <!-- =========================
