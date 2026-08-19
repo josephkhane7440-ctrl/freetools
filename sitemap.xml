@@ -1,19 +1,20 @@
-# sitemap.xml
-
-```xml
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
     <loc>https://josephkhane7440-ctrl.github.io/freetools/</loc>
   </url>
+
   <url>
     <loc>https://josephkhane7440-ctrl.github.io/freetools/privacy.html</loc>
   </url>
+
   <url>
     <loc>https://josephkhane7440-ctrl.github.io/freetools/terms.html</loc>
   </url>
+
   <url>
     <loc>https://josephkhane7440-ctrl.github.io/freetools/contact.html</loc>
   </url>
+
 </urlset>
-```
